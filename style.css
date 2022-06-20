@@ -216,7 +216,7 @@ footer.second p{
     text-align: center;
     padding: 5%;
 }
-@media screen and (max-width 768px){
+@media screen and (max-width :900px){
     #menu-icon{
         margin: 26px 0 0 26px;
     }
