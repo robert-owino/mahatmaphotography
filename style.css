@@ -202,11 +202,11 @@ nav:hover ul {
     height: 3%;
 }
 .parallax{
-    background: url(PSX_20210610_175331.webp) repeat fixed 100%;
+    background: url(PSX_20210610_175331.webp) repeat fixed 50%;
     opacity: .9;
 }
 .parallax-inner{
-    padding-top: 16%;
+    padding-top: 23%;
 }
 footer.second{
     background-color: #2C2C2C;
@@ -259,7 +259,7 @@ footer.second p{
         display: block;
     }
     .parallax{
-        display: none;
+        
     }
     .social-media i {
         font-size: 70%;
