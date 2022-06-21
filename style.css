@@ -50,42 +50,11 @@ img{
     height: 100%;
     width: 100%;
     margin: auto;
-    background: url() no-repeat 50% 50%;
+    background: url(Happiness.webp) no-repeat 50% 50%;
     background-size: cover;
     display: table;
-    top: 0;
-    background-position: center;
-    background-repeat: no-repeat;
-    transition: 5s;
+}
 
-    animation-name: animate;
-    animation-direction:alternate-reverse;
-    animation-duration :30s ;
-    animation-fill-mode:forwards ;
-    animation-iteration-count:infinite ;
-    animation-play-state:running ;
-    animation-timing-function:ease-in-out ;
-}
-@keyframes animate{
-    0%{
-        background-image: url(DSC_0215.webp);
-    }
-    20%{
-        background-image: url(Happiness.webp);
-    }
-    40%{
-        background-image: url(IMG_20210711_211317_081.webp);
-    }
-    60%{
-        background-image: url(IMG_20220609_093717793_processed.webp);
-    }
-    80%{
-        background-image: url(PSX_20211129_213538.webp);
-    }
-    100%{
-        background-image: url(PSX_20211206_164618.webp);
-    }
-}
 .intro .inner{
     display: table-cell;
     vertical-align: middle;
